@@ -8,13 +8,13 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=s
     font-family: 'Poppins',sans-serif;
     
 =======
-    margin: 0%;
+    margin: 0px;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
 .section{
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
     background-color: #ddd;
 }

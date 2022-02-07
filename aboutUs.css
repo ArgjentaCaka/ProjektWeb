@@ -1,20 +1,12 @@
-@import
-url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 *{
-<<<<<<< HEAD
     margin: 0px;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    
-=======
-    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
 .section{
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
     background-color: #ddd;
 }
@@ -113,5 +105,4 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=s
     .content-section .social{
         text-align: center;
     }
->>>>>>> 2f34604823da93a87fbc193013051488a3851434
 }

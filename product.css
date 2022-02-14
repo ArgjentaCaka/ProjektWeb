@@ -7,22 +7,22 @@
     width: 100%;
 }
 .row{
-    width: 90%;
-    height: 100vh;
+    width: 70%;
+    height: 80vh;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .col{
-    flex-basis: 45%;
+    flex-basis: 55%;
 }
 .slider{
-    height: 80vh;
+    height: 60vh;
     display: flex;
 }
 .product img {
-    height: 19vh;
+    height: 15vh;
     margin-bottom: 9px;
     cursor: pointer;
     opacity: 0.6;

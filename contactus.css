@@ -101,7 +101,8 @@
     width:100%;
     margin-top:10px;
 }
-.contactForm .inputBox input
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
 {
     width:100%;
     padding:5px 0;
@@ -109,6 +110,43 @@
     margin:10px 0;
     border: none;
     border-bottom:2px solid #333;
+    outline:none;
+    resize:none;
 }
+.contactForm .inputBox span
+{
+    position:absolute;
+    Left:0;
+    padding:5px 0;
+    font-size:16px;
+    margin:10px 0;
+    pointer-events:none;
+    transition: 0.5s;
+    color:#666,
+
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox textarea:valid~span
+
+{
+    color: #e91e63;
+    font-size:120x;
+    tansform:translateY(-20px);
+
+}
+.contanerForm .inputBox input[type="submit"]
+{
+    width:100px;
+    background:#00bcd4;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    font-size:18px;
+
+}
+
 
 
